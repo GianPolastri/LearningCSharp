@@ -7,6 +7,8 @@ public class MyFirstConsoleApp
         WriteSomething();
         WriteSomethingSpecific("I am an argument and called form a method");
         Console.WriteLine(Add(15, 22));
+        Console.WriteLine(Multiply(25, 25));
+        Console.WriteLine(Devide(25, 13));
         Console.Read();
     }
 
@@ -19,6 +21,16 @@ public class MyFirstConsoleApp
     public static int Add(int num1, int num2)
     {
         return num1 + num2;
+    }
+
+    public static int Multiply(int num1, int num2)
+    {
+        return num1 * num2;
+    }
+
+    public static double Devide(double num1, double num2)
+    {
+        return num1 / num2;
     }
 
     public static void WriteSomethingSpecific(string myText)
