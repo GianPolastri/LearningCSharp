@@ -9,7 +9,7 @@ public class MyFirstConsoleApp
         Console.WriteLine(Add(15, 22));
         Console.WriteLine(Multiply(25, 25));
         Console.WriteLine(Devide(25, 13));
-        Console.Read();
+Console.Read();
     }
 
     //Access modifier (static) return type method name (parameter1, parameter2)
