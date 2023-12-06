@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MyFirstConsoleApp;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -67,6 +68,8 @@ namespace TryAndCatchC
             {
                 Console.WriteLine("DivideByZeroException, It is not allowed to divide by zero.");
             }
+
+            Conditionals.IfConditional();
 
         }
     }

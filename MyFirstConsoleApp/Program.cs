@@ -1,5 +1,5 @@
-﻿
-public class MyFirstConsoleApp
+﻿/*
+public class FirstApproach
 {
   
     static void Main(string[] args)
@@ -43,12 +43,14 @@ public class MyFirstConsoleApp
 
     public static void Calculator()
     {
-        Console.WriteLine("Write the two numbers you wanna add up:");
+        Console.WriteLine("Welcome to the calculator:");
+        Console.WriteLine("Please enter the first number:");
         string num1 = Console.ReadLine();
+        Console.WriteLine("Please enter the second number:");
         string num2 = Console.ReadLine();
 
         int result = Int32.Parse(num1) + Int32.Parse(num2);
         Console.WriteLine("The result is: " + result);
     }
 }
- 
+*/
